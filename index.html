@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <title>Premium Video Popup | Aminul Sarkar</title>
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Video Popup -->
+  <div id="video-popup">
+
+    <!-- Close Button -->
+    <button
+      id="close-popup"
+      type="button"
+      aria-label="Close video"
+    >
+      &times;
+    </button>
+
+    <!-- Video -->
+    <div class="video-wrapper">
+
+      <video
+        id="popup-video"
+        width="100%"
+        controls
+        playsinline
+      >
+
+        <source
+          src="https://aminulsarkar.com/wp-content/uploads/2025/07/Polimeni-Review.mp4"
+          type="video/mp4"
+        >
+
+        <source
+          src="https://aminulsarkar.com/wp-content/uploads/2025/07/Polimeni-Review.mp4"
+          type="video/webm"
+        >
+
+        Your browser does not support the video tag.
+
+      </video>
+
+      <!-- Unmute Button -->
+      <button
+        id="unmute-btn"
+        type="button"
+      >
+        🔊 Tap for Sound
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/video-popup.js"></script>
+
+</body>
+
+</html>
