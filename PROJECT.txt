@@ -1,0 +1,92 @@
+# PREMIUM VIDEO POPUP
+
+Project Type:
+Interactive JavaScript Video Component
+
+Author:
+Aminul Sarkar
+
+Website:
+https://aminulsarkar.com
+
+GitHub:
+https://github.com/aminulsarkar
+
+## DESCRIPTION
+
+Premium Video Popup is a lightweight and responsive JavaScript
+video popup component for promotional videos, announcements,
+marketing campaigns, product demonstrations, and event websites.
+
+The popup appears after a configurable delay and uses a smooth
+slide-in animation.
+
+## FEATURES
+
+* Delayed popup display
+* Responsive popup layout
+* Smooth entrance animation
+* Smooth exit animation
+* HTML5 video support
+* MP4 support
+* WebM support
+* Video controls
+* Mobile inline playback
+* Autoplay handling
+* Muted autoplay fallback
+* Manual sound/unmute button
+* Close button
+* Session-based display control
+* Video cleanup during navigation
+* Video cleanup when the page becomes hidden
+
+## TECHNOLOGIES
+
+HTML5
+CSS3
+Vanilla JavaScript
+HTML5 Video API
+Session Storage
+
+## DEPENDENCIES
+
+No JavaScript framework is required.
+
+The component uses native browser APIs and HTML5 video.
+
+## HOW IT WORKS
+
+1. The page loads.
+2. The component waits for the configured delay.
+3. The popup slides into view.
+4. The component attempts to autoplay the video.
+5. If autoplay with sound is blocked, muted playback is attempted.
+6. A sound button is displayed when necessary.
+7. The user can manually enable sound.
+8. The user can close the popup.
+9. The video is paused and reset when necessary.
+10. Session storage prevents repeated display during the same session.
+
+## CUSTOMIZATION
+
+The popup delay can be changed in:
+
+js/video-popup.js
+
+The popup design can be changed in:
+
+css/video-popup.css
+
+The video source can be changed in:
+
+index.html
+
+## PROJECT STATUS
+
+Completed reusable frontend component.
+
+## AUTHOR
+
+Aminul Sarkar
+
+https://aminulsarkar.com
